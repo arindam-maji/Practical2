@@ -1,0 +1,12 @@
+=> after git init command the (main) becomes (master).that means a .git file will be created 
+=> git -lsart for checking the local repo files.
+=> cd ..
+=> git pull "link of remote repo"///in which dir the local repo is present
+=> cat file.txt //update anything.
+=> git status //modified: file.txt in red
+=> git add .//it will add the file in staging phase
+=> git commit
+=> cd .git/objects  ///it will open all git objects .whenever any object is created automatically and it used the starting(2) chars of the git file name chars.(40)chars ...and we can create the objects mannualy.
+=> git push "remote repo link"  ///it will reflect error
+=> git remote add origin "link'
+=> git push origin head
