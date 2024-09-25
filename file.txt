@@ -1,0 +1,43 @@
+This is practical1.
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/your-repo-name.git
+git push -u origin master
+git status[A[A[A[A[A[A[C[D[D[D[D[D[D[D[D[D[D[D[B
+Q1. How would you move your local repo to a remote GitHub repo?
+Describe the step you would take to add the remote GitHub repo,Push your local changes and verify that the files were successfully transferred.
+Initialize Local Git Repository (if not already initialized):
+
+bash
+Copy code
+git init
+Add Files to the Local Repository: Use git add to stage files.
+
+bash
+Copy code
+git add .
+Commit the Changes Locally:
+
+bash
+Copy code
+git commit -m "Initial commit"
+Create a Remote Repository on GitHub:
+
+Go to GitHub, click on "New repository", and create a new repository.
+Don’t initialize it with a README.md file.
+Add the Remote GitHub Repository URL: Copy the URL of your GitHub repository and add it as a remote to your local repository.
+
+bash
+Copy code
+git remote add origin https://github.com/yourusername/your-repo-name.git
+Push Local Repository to Remote GitHub Repository:
+
+bash
+Copy code
+git push -u origin master
+Verify that Files Were Successfully Transferred:
+
+Go to your GitHub repository in a web browser and check the files.
+Alternatively, run git status locally to confirm that there are no unpushed changes.
+
