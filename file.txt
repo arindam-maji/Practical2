@@ -41,3 +41,4 @@ Verify that Files Were Successfully Transferred:
 Go to your GitHub repository in a web browser and check the files.
 Alternatively, run git status locally to confirm that there are no unpushed changes.
 
+ I am updating it for Practical2 
